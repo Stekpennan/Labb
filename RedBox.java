@@ -7,4 +7,11 @@ public class RedBox extends ColoredBox{
 		
 		super(x, y, width, height, Color.red);
 	}
+	public void update(Keyboard keyboard) {
+		if(getY() == 570) {
+			System.exit(0);
+		} else {
+			setY(getY() + 1);			
+		}
+	}
 }

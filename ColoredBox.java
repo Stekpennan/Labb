@@ -12,7 +12,7 @@ public class ColoredBox extends Sprite{
 
 	@Override
 	public void update(Keyboard keyboard) {		
-		setY(getY() + 1); 
+		
 	}
 
 	@Override

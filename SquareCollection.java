@@ -9,8 +9,8 @@ public class SquareCollection{
 		redboxes = new ArrayList<>();
 		for (int i = 0; i < size; i++) {
 			int x1 = 50 + i * 75;
-			int y1 = 50;
-			redboxes.add(new RedBox(x1, y1, 30, 30));
+			int y1 = 0;
+			redboxes.add(new RedBox(x1, y1, 40, 30));
 		}
 	}
 	public void update(Keyboard keyboard) {
